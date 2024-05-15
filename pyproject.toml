@@ -1,3 +1,42 @@
-[build-system]
-requires = ["setuptools>=42"]
-build-backend = "setuptools.build_meta"
+[project]
+name = "siwp2005_scientific_calculator_hendrikTpl"
+version = "0.0.1"
+authors = [{ name="hendrikTpl", email="hendrik.gian@gmail.com" },]
+maintainers = [
+  {name = "Hendrik T", email = "hendrik.gian@gmail.com"}
+]
+
+description = "SI-UKKW-SIWP2005-OOP, A simple scientific calculator package case study"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+requires-python = ">=3.8"
+
+classifiers = [
+  # How mature is this project? Common values are
+  #   3 - Alpha
+  #   4 - Beta
+  #   5 - Production/Stable
+  "Development Status :: 4 - Beta",
+
+  # Indicate who your project is intended for
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+
+  # Pick your license as you wish (see also "license" above)
+  "License :: OSI Approved :: MIT License",
+
+  # Specify the Python versions you support here.
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+]
+
+
+[project.urls]
+Homepage = "https://deepx.id"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/hendrikTpl/siwp2005-pip-test.git"
+"Bug Tracker" = "https://github.com/hendrikTpl/siwp2005-pip-test/issues"
+Changelog = "https://github.com/hendrikTpl/siwp2005-pip-test/blob/main/CHANGELOG.md"
